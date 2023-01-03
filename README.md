@@ -1,1 +1,1 @@
-# React Course Applications
+# React Course Applications - Patika.dev
