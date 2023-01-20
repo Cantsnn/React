@@ -33,7 +33,7 @@ function Footer({ todoList, setTodoList, filterStatus, changeFilterStatus }) {
                 </li>
             </ul>
 
-            <button onClick={onClearCompletedClick} className={completedCount==0?"hidden": "clear-completed"}>
+            <button onClick={onClearCompletedClick} hidden={completedCount===0} className="clear-completed">
                 Clear completed
             </button>
         </div>
