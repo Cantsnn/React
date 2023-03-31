@@ -27,7 +27,8 @@ export const WeatherProvider = ({ children }) => {
     }
 
     async function fetchData(newCity){
-        const api_key = "07e3e9f9ee014320851184803230503"
+        //YOUR API KEY
+        const api_key = "217d3b4f53a54372b3e211859233103"
         const url = `http://api.weatherapi.com/v1/forecast.json?key=${api_key}&q=${newCity}&days=8&hour=24&lang=tr`
     
          await axios(url).then(res => res.data)
